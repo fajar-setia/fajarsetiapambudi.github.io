@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Warung Makan Toni</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1>Selamat datang di Warung Makan Toni</h1>
+    </div>
+    
+    <div class="menu-container1">
+        <div class="title1">
+            <h2>Makanan yang Tersedia</h2>
+        </div>
+        <div class="makanan">
+            <div class="menu-item1">
+                <img src="nasigoreng.jpg" alt="Nasi Goreng">
+                <div class="caption">
+                    <h3>Nasi Goreng</h3>
+                </div>
+            </div>
+            <div class="menu-item2">
+                <img src="ayambakar.jpg" alt="Ayam Bakar">
+                <div class="caption">
+                    <h3>Ayam Bakar</h3>
+                </div>
+            </div>
+            <div class="menu-item3">
+                <img src="sotoayam.jpg" alt="Soto Ayam">
+                <div class="caption">
+                    <h3>Soto Ayam</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="menu-container1">
+        <div class="title1">
+            <h2>Minuman yang Tersedia</h2>
+        </div>
+        <div class="minuman">
+            <div class="minum1">
+                <img src="esteh.jpg" alt="Es Teh">
+                <div class="caption">
+                    <h3>Es Teh</h3>
+                </div>
+            </div>
+            <div class="minum2">
+                <img src="kukubimasusu.jpg" alt="Kuku Bima Susu">
+                <div class="caption">
+                    <h3>Kuku Bima Susu</h3>
+                </div>
+            </div>
+            <div class="minum3">
+                <img src="tuak.jpg" alt="Tuak">
+                <div class="caption">
+                    <h3>Tuak</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <center>
+    <div class="menu-container2">
+        <div class="title1">
+            <h2>Pesan Makanan dan Minuman</h2>
+        </div>
+        <form action="order.php" method="post" class="menu-item">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required><br><br>
+
+            <label for="makanan">Makanan:</label>
+            <select id="makanan" name="makanan" required>
+                <option value="">Pilih Makanan</option>
+                <option value="Nasi Goreng">Nasi Goreng</option>
+                <option value="Ayam Bakar">Ayam Bakar</option>
+                <option value="Soto Ayam">Soto Ayam</option>
+            </select><br><br>
+
+            <label for="input-makanan">Makanan Lain:</label>
+            <input type="text" id="input-makanan" name="input_makanan" placeholder="Masukkan makanan lain"><br><br>
+
+            <label for="minuman">Minuman:</label>
+            <select id="minuman" name="minuman" required>
+                <option value="">Pilih Minuman</option>
+                <option value="Es Teh">Es Teh</option>
+                <option value="Kuku Bima Susu">Kuku Bima Susu</option>
+                <option value="Tuak">Tuak</option>
+            </select><br><br>
+
+            <label for="input-minuman">Minuman Lain:</label>
+            <input type="text" id="input-minuman" name="input_minuman" placeholder="Masukkan minuman lain"><br><br>
+
+            <input type="submit" value="Pesan">
+        </form>
+    </div>
+</center>
+</body>
+</html>

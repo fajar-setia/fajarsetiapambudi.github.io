@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.title h1 {
+    text-align: center;
+    background-color: rgb(26, 176, 159);
+    color: white;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title1 h2 {
+   text-align: center;
+   background-color: rgb(26, 176, 159);
+   color: white;
+   padding: 10px;
+   border-radius: 8px;
+   margin: 30px auto;
+}
+.menu-container1, .menu-container2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: #bbbbbb;
+    border-radius: 5px;
+}
+
+.menu-container1 h2, .menu-container2 h2 {
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+    color: black;
+    
+}
+
+/* Menu Item Styles */
+.makanan, .minuman {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item1, .menu-item2, .menu-item3,
+.minum1, .minum2, .minum3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.menu-item1 img{
+    width: 190px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.menu-item2 img{
+    width: 200px;
+    height: 155px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.menu-item3 img{
+    width: auto;
+    height: 155px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.minum1 img{
+    width: 200px;
+    height: 155px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.minum2 img{
+    width: auto;
+    height: 155px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.minum3 img{
+    width: 200px;
+    height: 155px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Order Summary Styles */
+.order-summary {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
